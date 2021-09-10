@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hero">
+        <item>易烊千玺</item>
+        <item>迪丽热巴</item>
+        <item>杨洋</item>
+        <item>宋亚轩</item>
+        <item>刘耀文</item>
+        <item>乔晶晶</item>
+        <item>于途</item>
+        <item>虞姬</item>
+    </string-array>
+</resources>

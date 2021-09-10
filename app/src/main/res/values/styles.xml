@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="dropDownListViewStyle">@style/XSpinnerStyle</item>
+    </style>
+    //分割线 之后要在AppTheme中调用
+    <style name="XSpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        @null
+        <item name="divider">@color/darkslategrey</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    //普通的下拉框
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="请选择你的敷衍话语"
+            android:layout_weight="1"
+            android:gravity="center_vertical"/>
+        <Spinner
+            android:id="@+id/spinner_drop"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset = "50dp"
+            android:background="@null"/>
+    </LinearLayout>
+    //自定义样式的下拉框
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="请选择你的本命"
+            android:layout_weight="1"
+            android:gravity="center_vertical"/>
+        <Spinner
+            android:id="@+id/spinner_hero"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset = "50dp"
+            android:background="@null"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="你的本命是:"/>
+        <TextView
+            android:id="@+id/hero_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="易烊千玺"/>
+    </LinearLayout>
+    
+</LinearLayout>
